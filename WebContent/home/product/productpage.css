@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@import url(normalize.css);
+
+#pro { /* product-category-items */
+	
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#pro a { 
+	color: #8a8a8a;
+}
+
+#productListDiv {/* category-item */
+	width: 1860px; 
+	margin: 0 auto;
+}
+
+.productDiv { /* img-box */
+	padding: 10px 5px;
+	width: 300px;
+	margin: 0px;
+	text-align: center;
+	float: left;
+	background: #f5f5f5;
+}
+
+
+.pageClass {
+    width: 1860px;
+    margin: auto
+}
+
+.pageClass .btn {
+    float: left;
+    width: 1860px;
+}
+.pageClass .btn a, .pageClass .btn span {
+    display: block;
+    float: left;
+    width: 194px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 5px;
+    border: solid thin #eee;
+    transition: all .5s
+}
+.pageClass .btn a:hover {
+    background: #999;
+    font-weight: bold;
+    color: #eee;
+    letter-spacing: 1px
+}
+
